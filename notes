@@ -1,0 +1,26 @@
+- The red divs can be anything on your website. 
+- to enable flexbox, you have to put the display to flex inside the container. 
+- flex direction property - sets the direction of the flex items inside the container. Its default setting is row. 
+Apart from row, other values are:
+flex-direction: column; - this will stack the li items vertically. 
+- Flexbox has two axis: main axis and cross axis. 
+column-reverse: reverses order of list items. 
+row-reverse: reverses order of list items in the horizontal direction. 
+- To determine the location:
+justify-content: center; can also take space-between, where by the space between the flex items is set to be equal; can also take space-around;
+space-evenly;
+flex-start;
+flex-end;
+
+
+align-items: center; centers the items horizontally. the default value is stretch, which makes the flex items to stretch to the height of the largest fixed item. Can also take flex-start; flex-end; can also take baseline. To use this, change the font-size of one of the items to  a larger one.  
+
+when flex-direction is set to row: The main axis is the x-axis,the cross axis is the y axis. 
+justify content deals with the cross axis, while align-items deals with the main axis.  
+
+
+
+- align-self property: Applies only to a single item. It takes all values that align-items can take. The specific item  gets  aligned with regard to the height of the largest flex item. 
+- align-content - aligns the rows of a container either to the top, bottom or center. its use can be well seen when the height of the container is large. 
+
+
